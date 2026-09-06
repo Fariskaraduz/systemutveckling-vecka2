@@ -22,3 +22,16 @@ En Git-commit är en sparad del av projektet där man sparar de ändringar man h
 ### Scenario: 
 
 Jag har precis börjat programmera en inloggningssida på en app och är klar med inloggningen. Jag gör en commit så att jag har sparat den delen där allt fungerar, skriver ett meddelande "Lagt till inloggning" och sedan pushar den till Github. Nu går jag vidare till nästa steg där jag ska lägga till funktionen att skapa ett konto och råkar ändra på något som gör att inloggningen slutar fungera. Då kan jag gå tillbaka till mina tidigare commits där jag vet att inloggningen fungerade och på så sätt undvika att behöva göra om allt från början. 
+
+
+## 3. Samarbete med GitHub
+
+**Vad innebär samarbete med GitHub? Vad är pull requests, branches och merge?**
+Samarbete med GitHub handlar om att flera personer kan jobba i samma projekt samtidigt genom att skapa ett repo gemensamt där alla kan dela ändringar och hålla koll på vem som har gjort vad. 
+
+Pull request: En pull request är när man skickar in sina ändringar för det projekt man jobbat på för att de andra i projektet ska kunna kolla igenom dem och godkänna dem innan man implementerar dem i huvud koden. Det brukar oftast vara en senior kodare eller utvalda personer i projektet som går igenom koden tillsammans. Man kan även få feedback på sin pull request om den inte går igenom. Då får man en liten beskrivning av vad man kan ändra eller vad man ska tänka på för att få koden att fungera. 
+
+Branches: En branch är en egen del av projektet där man jobbar istället för att jobba direkt i huvudkoden. Genom att jobba i olika branches så kan flera personer jobba med samma projekt utan att man påverkar huvud koden. När man är klar med koden så kan man göra en pull request och sedan implementera den i huvud koden.
+
+Merge: En merge är sista delen efter att man har skrivit koden och gjort en pull request. Därefter gör man en merge vilket betyder att koden eller funktionen läggs in i huvudkoden. 
+
